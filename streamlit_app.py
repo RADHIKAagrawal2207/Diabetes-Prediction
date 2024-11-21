@@ -13,7 +13,7 @@ st.title('Diabetes Prediction')
 col1, col2 = st.columns(2)
 
 with col1 :
-  Pregnancies = st.number_input('Enter the Pregnancies value')
+  Pregnancies = st.number_input('Enter the Pregnancies value',step=1)
 
 with col2 :
   Glucose = st.number_input('Enter the Glucose value')
